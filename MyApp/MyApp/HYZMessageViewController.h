@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HYZMessageViewController : HYZCustomNavigationController
-
+@interface HYZMessageViewController : HYZCustomNavigationController<UITableViewDataSource,UITableViewDelegate>
+@property (nonatomic, strong) UITableView *messageTableView;
+@property (nonatomic, strong) NSArray     *messageArray;
 @end
