@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B040E2C19EABF090088465D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B040E2A19EABF090088465D /* LoginViewController.m */; };
+		9B040E2D19EABF090088465D /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B040E2B19EABF090088465D /* LoginViewController.xib */; };
 		A884049D19EAAA7B0010E214 /* ic_message_express@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A884049A19EAAA7B0010E214 /* ic_message_express@2x.png */; };
 		A884049E19EAAA7B0010E214 /* ic_message_neaby@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A884049B19EAAA7B0010E214 /* ic_message_neaby@2x.png */; };
 		A884049F19EAAA7B0010E214 /* ic_message_system@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A884049C19EAAA7B0010E214 /* ic_message_system@2x.png */; };
@@ -77,6 +79,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B040E2919EABF090088465D /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		9B040E2A19EABF090088465D /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		9B040E2B19EABF090088465D /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		A884049A19EAAA7B0010E214 /* ic_message_express@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_message_express@2x.png"; sourceTree = "<group>"; };
 		A884049B19EAAA7B0010E214 /* ic_message_neaby@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_message_neaby@2x.png"; sourceTree = "<group>"; };
 		A884049C19EAAA7B0010E214 /* ic_message_system@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_message_system@2x.png"; sourceTree = "<group>"; };
@@ -223,6 +228,9 @@
 				A8E136AB19C5C2A10000BEAA /* HYZMineViewController.m */,
 				A8F63B6A19C733E3009B74FA /* HYZCustomCell.h */,
 				A8F63B6B19C733E3009B74FA /* HYZCustomCell.m */,
+				9B040E2919EABF090088465D /* LoginViewController.h */,
+				9B040E2A19EABF090088465D /* LoginViewController.m */,
+				9B040E2B19EABF090088465D /* LoginViewController.xib */,
 				A8E1368319C5C2380000BEAA /* Images.xcassets */,
 				A8E1368019C5C2380000BEAA /* MyApp.xcdatamodeld */,
 				A8E1367519C5C2380000BEAA /* Supporting Files */,
@@ -399,6 +407,7 @@
 				A8E136BB19C5C8540000BEAA /* icon_3_n@2x.png in Resources */,
 				A8E136B619C5C8540000BEAA /* icon_1_n.png in Resources */,
 				A8F63B9419C74CB8009B74FA /* usercenter_about@2x.png in Resources */,
+				9B040E2D19EABF090088465D /* LoginViewController.xib in Resources */,
 				A8E136CD19C5D8F10000BEAA /* home_icon_send.png in Resources */,
 				A8F63B8419C74A54009B74FA /* per_mycount.png in Resources */,
 				A884049D19EAAA7B0010E214 /* ic_message_express@2x.png in Resources */,
@@ -441,6 +450,7 @@
 				A8F63B6C19C733E3009B74FA /* HYZCustomCell.m in Sources */,
 				A8E1367F19C5C2380000BEAA /* HYZAppDelegate.m in Sources */,
 				A8E136A619C5C28F0000BEAA /* HYZMessageViewController.m in Sources */,
+				9B040E2C19EABF090088465D /* LoginViewController.m in Sources */,
 				A8E1367B19C5C2380000BEAA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -561,7 +571,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyApp/MyApp-Prefix.pch";
 				INFOPLIST_FILE = "MyApp/MyApp-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -575,7 +585,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyApp/MyApp-Prefix.pch";
 				INFOPLIST_FILE = "MyApp/MyApp-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

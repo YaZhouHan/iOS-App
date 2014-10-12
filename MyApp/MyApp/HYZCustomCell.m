@@ -45,6 +45,7 @@
         
         HYZCustomView *backGroundView = [[HYZCustomView alloc] initWithFrame:CGRectMake(0, 70, 320, 50)];
         [imageView addSubview:backGroundView];
+        //////////------gggggg
     }
     return self;
 }
