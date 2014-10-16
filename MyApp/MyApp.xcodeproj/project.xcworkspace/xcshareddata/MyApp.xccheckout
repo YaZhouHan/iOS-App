@@ -10,29 +10,29 @@
 	<string>MyApp</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>EA48DCCE-CCEC-44F6-BD89-B2D1CE094CFC</key>
+		<key>20637FBC98B853AD9B52CE24C5ADF8916E40836F</key>
 		<string>https://github.com/YaZhouHan/iOS-App.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>MyApp/MyApp.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>EA48DCCE-CCEC-44F6-BD89-B2D1CE094CFC</key>
+		<key>20637FBC98B853AD9B52CE24C5ADF8916E40836F</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/YaZhouHan/iOS-App.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>EA48DCCE-CCEC-44F6-BD89-B2D1CE094CFC</string>
+	<string>20637FBC98B853AD9B52CE24C5ADF8916E40836F</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>EA48DCCE-CCEC-44F6-BD89-B2D1CE094CFC</string>
+			<string>20637FBC98B853AD9B52CE24C5ADF8916E40836F</string>
 			<key>IDESourceControlWCCName</key>
 			<string>iOS-App</string>
 		</dict>
