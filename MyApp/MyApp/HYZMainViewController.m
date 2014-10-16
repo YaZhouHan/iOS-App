@@ -144,7 +144,7 @@
 #pragma mark -
 #pragma mark HYZTableViewCellDelegate -
 - (void)tableViewCell:(HYZTableViewCell *)tableViewCell didSelect:(NSInteger)select{
-    _isOpen =! _isOpen;
+    _isOpen =!_isOpen;
     if (select == 0) {
         [_tableView reloadSections:[[NSIndexSet alloc] initWithIndex:1] withRowAnimation:UITableViewRowAnimationNone];
     }else{

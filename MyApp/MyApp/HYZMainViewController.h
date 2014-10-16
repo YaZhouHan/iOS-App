@@ -11,7 +11,7 @@
 
 @interface HYZMainViewController : HYZCustomNavigationController<UITableViewDelegate,UITableViewDataSource,HYZTableViewCellDelegate>
 @property (nonatomic, strong) UITableView *tableView;
-@property (nonatomic, assign) BOOL        *isOpen;
+@property (nonatomic, assign) BOOL        isOpen;
 @property (nonatomic, strong) NSArray     *imageArray;
 @property (nonatomic, strong) NSArray     *titleArray;
 @property (nonatomic, strong) NSArray     *detailArray;

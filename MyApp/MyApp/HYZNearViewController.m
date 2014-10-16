@@ -55,6 +55,12 @@
     self.navigationItem.rightBarButtonItems = @[messageItem];
 }
 
+-(void)titleItemBtnClick:(id)sender
+{
+    
+}
+
+
 - (void)didReceiveMemoryWarning{[super didReceiveMemoryWarning];}
 
 @end
