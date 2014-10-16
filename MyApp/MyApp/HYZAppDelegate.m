@@ -38,7 +38,6 @@
     
     tableBarController.viewControllers = @[mainNavigationController,messageNavigationController,nearNavigationController,mineNavigationController];
     tableBarController.tabBar.tintColor = [UIColor colorWithRed:252/255.0 green:103/255.0 blue:0/255.0 alpha:1.0];
-    NSLog(@"测试一下git 修改");
     self.window.rootViewController = tableBarController;
     
     self.window.backgroundColor = [UIColor whiteColor];
