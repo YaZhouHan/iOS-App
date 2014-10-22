@@ -16,3 +16,7 @@
     #import <CoreData/CoreData.h>
     #import "HYZCustomNavigationController.h"
 #endif
+
+
+#import "Define.h"
+#import "PublicConfig.h"
